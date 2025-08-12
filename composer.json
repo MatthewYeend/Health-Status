@@ -1,0 +1,46 @@
+{
+    "name": "mattyeend/health-status",
+    "description": "Laravel package to check database, ping, queue, cron, and disk health.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "Health",
+        "Status",
+        "Health-Status",
+        "Package"
+    ],
+    "authors": [
+        {
+            "name": "Matt Yeend",
+            "email": "mail@mattyeend.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "^10.0 || ^11.0 || ^12.0",
+        "illuminate/support": "^10.0 || ^11.0 || ^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MattYeend\\HealthStatus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MattYeend\\HealthStatus\\HealthStatusServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
