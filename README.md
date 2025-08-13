@@ -24,8 +24,8 @@ composer require MattYeend/health-status
 
 ## Publish Config & Views
 ```bash
-php artisan vendor:publish --provider="YourVendor\HealthStatus\HealthStatusServiceProvider" --tag=config
-php artisan vendor:publish --provider="YourVendor\HealthStatus\HealthStatusServiceProvider" --tag=views
+php artisan vendor:publish --provider="MattYeend\HealthStatus\HealthStatusServiceProvider" --tag=config
+php artisan vendor:publish --provider="MattYeend\HealthStatus\HealthStatusServiceProvider" --tag=views
 ```
 
 --- 
