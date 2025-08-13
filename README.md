@@ -17,7 +17,7 @@ Supports **Laravel 10, 11, and 12**.
 Require the package via Composer:
 
 ```bash
-composer require MattYeend/healthstatus
+composer require MattYeend/health-status
 ```
 
 ---
