@@ -8,7 +8,7 @@ A Laravel package to monitor application health, including:
 - Cron heartbeat
 - Disk space
 
-Supports **Laravel 10, 11, and 12**.
+Supports **Laravel 10, 11, 12, and 13**.
 
 ---
 
